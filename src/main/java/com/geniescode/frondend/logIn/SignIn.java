@@ -2,7 +2,6 @@ package com.geniescode.frondend.logIn;
 
 import com.geniescode.backend.controllers.SignInController;
 import com.geniescode.frondend.share.components.Buttons.Button;
-import com.geniescode.frondend.share.components.glassPanePopUp.GlassPanePopup;
 import com.geniescode.frondend.share.components.panel.Panel;
 import com.geniescode.frondend.share.components.passwordField.PasswordField;
 import com.geniescode.frondend.share.components.textField.TextField;
@@ -25,7 +24,6 @@ public class SignIn extends JFrame {
     private Button registration;
 
     public SignIn() {
-        GlassPanePopup.install(this);
         initComponents();
     }
 
